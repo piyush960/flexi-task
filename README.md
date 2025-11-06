@@ -2,7 +2,7 @@
 
 A modern task management application built with React, TypeScript, and Redux Toolkit.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -28,7 +28,7 @@ Username: test
 Password: test123
 ```
 
-## 🎭 How Mocking Works
+## How Mocking Works
 
 This project uses **MSW (Mock Service Worker)** to intercept API requests and return mock data. No backend is required!
 
@@ -58,7 +58,7 @@ src/mocks/
 
 All endpoints except `/login` require authentication (mock JWT token in headers).
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 flexi-task-mind/
@@ -82,7 +82,7 @@ flexi-task-mind/
 └── vite.config.ts             # Vite configuration
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Core
 
@@ -132,7 +132,7 @@ npm run test:coverage
 
 Tests use MSW to mock API calls, ensuring consistent and fast test execution without network dependencies.
 
-## 🔨 Available Scripts
+## Available Scripts
 
 ```bash
 npm run dev              # Start development server
@@ -145,20 +145,7 @@ npm run test:ui          # Run tests with Vitest UI
 npm run test:coverage    # Run tests with coverage report
 ```
 
-## 💡 Key Features
-
-- ✅ Full CRUD operations for tasks
-- ✅ Priority levels (Low, Medium, High)
-- ✅ Task status tracking (Todo, In Progress, Completed)
-- ✅ Due date management
-- ✅ Dark mode support
-- ✅ Responsive design
-- ✅ Form validation
-- ✅ Authentication flow
-- ✅ Persistent mock data (localStorage)
-- ✅ Comprehensive test coverage
-
-## 🚧 Future Enhancements
+## Future Enhancements
 
 - Connect to a real backend API
 - Add task categories/tags

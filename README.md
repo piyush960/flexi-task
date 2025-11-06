@@ -117,7 +117,7 @@ flexi-task-mind/
 
 - **React Router v6** - Client-side routing
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run tests
